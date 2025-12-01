@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Lina 👋</h1>
+<h1 align="center">Hi, I'm Lina 👋😼🐈</h1>
 
 <p align="center">
   <b>ML Engineer · NLP & Geospatial ML · RAG Systems</b>
