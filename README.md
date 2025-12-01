@@ -79,14 +79,6 @@
 
 ---
 
-### 📈 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lin-Lini&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
 ### 🌱 Currently
 
 - Improving my skills in **LLM-based systems** (RAG, prompt design, evaluation).  
