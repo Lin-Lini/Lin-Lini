@@ -27,60 +27,86 @@
 
 ---
 
+### ⭐ Highlighted projects
+
+#### 🔎 RAGFlow – Retrieval-Augmented QA Service  
+> `NLP · RAG · Elasticsearch · Transformers · FastAPI`  
+Repo: [RAGFlow](https://github.com/Lin-Lini/RAGFlow)
+
+A modular RAG pipeline that:
+- ingests PDFs/DOCs/PPTX files and splits them into semantic chunks;
+- indexes content with **SBERT embeddings** in **Elasticsearch**;
+- answers user questions using **Vicuna / FLAN-T5** with source highlighting;
+- supports multilingual flows via **MarianMT** (ru ↔ en).
+
+This is my base platform for experimenting with LLM-based information retrieval.
+
+---
+
+#### 🌿 plant-health – Tree & Plant Health Analysis  
+> `Computer Vision · Segmentation · Classification · Geo/Agro domain`  
+Repo: [plant-health](https://github.com/Lin-Lini/plant-health)
+
+End-to-end pipeline for plant/tree health monitoring:
+- segmentation of plants and defects on images;
+- health/condition classification and basic analytics;
+- integration with geospatial context for agronomic scenarios.
+
+This project reflects my interest in combining **CV + agriculture + geodata** into something practically useful.
+
+---
+
+#### 🧑‍🏫 assistant-teacher – Agent System for Educators  
+> `LLM Agents · RAG · Kafka · MinIO · Elasticsearch · FastAPI`  
+Repo: [assistant-teacher](https://github.com/Lin-Lini/assistant-teacher)
+
+Backend of an **agent-style assistant for teachers and students**:
+- parses and indexes course PDFs into Elasticsearch using a vectorizer service;
+- answers questions with RAG over course materials;
+- generates quizzes asynchronously via Kafka + LLM and stores them in MinIO;
+- automatically grades quiz answers and returns detailed feedback.
+
+Designed as a multi-service system with specialized workers (parser, generator, grader) coordinated by an LLM “router”.
+
+---
+
+#### 👥 All-Russian-hackathon – User Demographics Prediction  
+> `Tabular ML · Behavioral Data · Competition`  
+Repo: [All-Russian-hackathon](https://github.com/Lin-Lini/All-Russian-hackathon)
+
+Competition project focused on:
+- predicting socio-demographic attributes of users from behavioral/interaction logs;
+- feature engineering from noisy event data;
+- model comparison (classic ML methods, regularization, ensembles).
+
+Shows my experience with **realistic, messy data** under hard competition constraints.
+
+---
+
+### 🧩 Other repositories (selection)
+
+- 🏙 `floor-population-models` – models to predict the number of residents in apartments (CatBoost, RF, Optuna).  
+- 📍 `address-extraction-ru` – Russian address extraction & normalization from raw text.  
+- 🌾 `field-fertillized-map` – geospatial analysis of fields and fertilization maps.  
+- 🏨 `cancellation-of-reservation` – predicting hotel reservation cancellations.
+
+More projects are available in the [Repositories](https://github.com/Lin-Lini?tab=repositories) section.
+
+---
+
 ### 🛠️ Languages & Tools
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/CatBoost-FFCC00?logo=catboost&logoColor=black" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Transformers-000000?logo=huggingface&logoColor=yellow" />
   <img src="https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/MinIO-C72E49?logo=minio&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/GeoPandas-139C5A?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/QGIS-589632?logo=qgis&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" />
 </p>
-
----
-
-### 📚 Selected Projects
-
-- 🔎 **[RAGFlow](https://github.com/Lin-Lini/RAGFlow)**  
-  FastAPI-based Retrieval-Augmented Generation service that:
-  - ingests PDFs/DOCs/PPTX,  
-  - segments and indexes them in **Elasticsearch** using **SBERT embeddings**,  
-  - answers user questions with **Vicuna** and **FLAN-T5**,  
-  - supports multilingual workflows via **MarianMT** (ru ↔ en).
-
-- 🏙 **[floor-population-models](https://github.com/Lin-Lini/floor-population-models)**  
-  A collection of regression & classification models (CatBoost, RandomForest, Optuna tuning)  
-  for predicting the number of residents in apartments (Volga IT 2024 task).
-
-- 📍 **[address-extraction-ru](https://github.com/Lin-Lini/address-extraction-ru)**  
-  Russian address extraction & normalization toolkit: text preprocessing, feature engineering  
-  and ML models for recognizing address patterns in raw text.
-
-- 🌾 **[field-fertillized-map](https://github.com/Lin-Lini/field-fertillized-map)**  
-  Geospatial pipeline for agricultural fields: mapping, fertilization analysis,  
-  integration of vector data, raster layers and agronomic attributes.
-
-- 🏨 **[cancellation-of-reservation](https://github.com/Lin-Lini/cancellation-of-reservation)**  
-  ML models to predict room reservation cancellations: EDA, feature engineering,  
-  and comparison of classic ML approaches.
-
-- 👥 **[All-Russian-hackathon](https://github.com/Lin-Lini/All-Russian-hackathon)**  
-  Predicting socio-demographic characteristics of users from behavioral and interaction data  
-  for an All-Russian ML hackathon.
-
----
-
-### 🌱 Currently
-
-- Improving my skills in **LLM-based systems** (RAG, prompt design, evaluation).  
-- Deepening experience with **geospatial analytics** and **agricultural ML**.  
-- Balancing being a **full-time student** and a **working ML engineer** – and using both sides to grow faster.
