@@ -29,6 +29,19 @@
 
 ### ⭐ Highlighted projects
 
+#### 🧾 ReviewOps MCP – Review Intelligence Platform for LLM Agents  
+> `NLP · MCP · FastAPI · PostgreSQL · Full-Text Search · LLM (llama.cpp) · Docker`  
+Repo: [reviewops-mcp](https://github.com/Lin-Lini/reviewops-mcp)
+
+Self-hosted microservice platform for analyzing text reviews about organizations:
+- full-text search over reviews (Russian `tsvector`) + relevant snippets;
+- negative insights by rubric/region with evidence (quotes) and improvement suggestions;
+- leaders/anti-leaders ranking by rubric with minimum review thresholds;
+- MCP tools layer for LLM agents (MCP-first) with orchestrator routing and REST fallback;
+- pluggable LLM backend: local GGUF via `llama.cpp` or external OpenAI-compatible endpoint.
+
+---
+
 #### 🔎 RAGFlow – Retrieval-Augmented QA Service  
 > `NLP · RAG · Elasticsearch · Transformers · FastAPI`  
 Repo: [RAGFlow](https://github.com/Lin-Lini/RAGFlow)
