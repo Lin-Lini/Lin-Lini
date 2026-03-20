@@ -15,77 +15,69 @@ My main areas are:
 - RAG pipelines and agent-style workflows
 - geospatial and agro ML
 
+My current focus is efficient NLP: compact Transformer models, evaluation, calibration, and retrieval-grounded LLM systems.
+
 ---
 
 ### 📬 Contact
 
-- 📧 Email: <a href="mailto:polina_chudinova01@mail.ru">polina_chudinova01@mail.ru</a>  
-- 💬 Telegram: <a href="https://t.me/Lin_Lin2021">@Lin_Lin2021</a>  
+📧 <a href="mailto:polina_chudinova01@mail.ru">polina_chudinova01@mail.ru</a> ·
+💬 <a href="https://t.me/Lin_Lin2021">@Lin_Lin2021</a>
 
 ---
 
 ### ⭐ Highlighted projects
 
-#### 🧠 Compact Transformer Encoder for Natural Language Inference  
-> `PyTorch · Transformers · Deep Learning · Calibration · Evaluation`  
-Repo: [eeml-nli-compact-vs-bert](https://github.com/Lin-Lini/eeml-nli-compact-vs-bert)
+#### 🧠 [Compact Transformer Encoder for Natural Language Inference](https://github.com/Lin-Lini/eeml-nli-compact-vs-bert)
+> `PyTorch · Transformers · Deep Learning · Calibration · Evaluation`
 
 Research-oriented project on compact encoder-only Transformer models for Natural Language Inference:
 - implemented a Transformer encoder from scratch and compared it with fine-tuned BERT on SNLI;
 - studied efficiency vs quality trade-offs under a controlled evaluation setup;
-- analyzed calibration, diagnostic slices, and failure modes;
-- explored architectural ablations over pooling, positional encoding, and model depth.
+- analyzed calibration, diagnostic slices, failure modes, and exploratory architectural ablations.
 
 This is my current main research-focused project in efficient NLP.
 
 ---
 
-#### 🏦 LLM Copilot for Banking Support  
-> `FastAPI · PostgreSQL · RAG · Audit Logging · LLM Systems`  
-Repo: [llm-copilot-bank-mvp](https://github.com/Lin-Lini/llm-copilot-bank-mvp)
+#### 🏦 [LLM Copilot for Banking Support](https://github.com/Lin-Lini/llm-copilot-bank-mvp)
+> `FastAPI · PostgreSQL · RAG · Audit Logging · LLM Systems`
 
 Backend MVP of a human-in-the-loop copilot for bank operators handling card dispute workflows:
 - retrieval over internal regulations and operational scripts;
-- structured LLM outputs with schema validation;
-- controlled tool execution with audit logging and trust-boundary design;
-- PII masking and guardrails for high-stakes support scenarios.
+- structured LLM outputs with schema validation and controlled tool execution;
+- audit logging, trust-boundary design, PII masking, and guardrails for high-stakes support scenarios.
 
 Built as a practical backend system where compliance and control matter as much as model quality.
 
 ---
 
-#### 🧾 ReviewOps MCP – Review Intelligence Platform for LLM Agents  
-> `NLP · MCP · FastAPI · PostgreSQL · Full-Text Search · Docker`  
-Repo: [reviewops-mcp](https://github.com/Lin-Lini/reviewops-mcp)
+#### 🧾 [ReviewOps MCP – Review Intelligence Platform for LLM Agents](https://github.com/Lin-Lini/reviewops-mcp)
+> `NLP · MCP · FastAPI · PostgreSQL · Full-Text Search · Docker`
 
 Self-hosted review intelligence platform for analyzing user feedback about organizations:
 - full-text search over Russian reviews with relevant snippets;
-- evidence-based negative insights by rubric and region;
-- ranking of leaders and anti-leaders under configurable thresholds;
-- MCP-first tools layer for LLM agents with REST fallback;
-- pluggable LLM backend via local `llama.cpp` or external OpenAI-compatible endpoints.
+- evidence-based negative insights and ranking by rubric and region;
+- MCP-first tools layer for LLM agents with local `llama.cpp` or external OpenAI-compatible backends.
 
 A project focused on turning messy review text into structured signals and usable tools.
 
 ---
 
-#### 🧑‍🏫 assistant-teacher – Agent System for Educators  
-> `LLM Agents · RAG · Kafka · MinIO · Elasticsearch · FastAPI`  
-Repo: [assistant-teacher](https://github.com/Lin-Lini/assistant-teacher)
+#### 🧑‍🏫 [assistant-teacher – Agent System for Educators](https://github.com/Lin-Lini/assistant-teacher)
+> `LLM Agents · RAG · Kafka · MinIO · Elasticsearch · FastAPI`
 
 Backend of an agent-style assistant for teachers and students:
 - parses and indexes course materials into Elasticsearch;
-- answers questions with retrieval-augmented generation;
-- generates quizzes asynchronously via Kafka + LLM;
-- stores artifacts in MinIO and supports automated grading workflows.
+- answers questions with retrieval-augmented generation and generates quizzes asynchronously;
+- supports automated grading workflows through a multi-service architecture.
 
-Designed as a multi-service system with specialized workers coordinated by an LLM router.
+Designed as a system with specialized workers coordinated by an LLM router.
 
 ---
 
-#### 🌿 plant-health – Tree & Plant Health Analysis  
-> `Computer Vision · Segmentation · Classification · GIS / Agro ML`  
-Repo: [plant-health](https://github.com/Lin-Lini/plant-health)
+#### 🌿 [plant-health – Tree & Plant Health Analysis](https://github.com/Lin-Lini/plant-health)
+> `Computer Vision · Segmentation · Classification · GIS / Agro ML`
 
 End-to-end pipeline for plant and tree health monitoring:
 - segmentation of plants and visual defects;
