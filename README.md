@@ -4,12 +4,6 @@
   <b>ML Engineer · NLP & Geospatial ML · RAG Systems</b>
 </p>
 
-<p align="center">
-  I build ML systems that are meant to work outside notebooks too:
-  from retrieval-augmented generation and compact Transformer experiments
-  to geospatial analytics and domain-focused computer vision.
-</p>
-
 ## About me
 
 I like ML projects that are both practical and measurable:
