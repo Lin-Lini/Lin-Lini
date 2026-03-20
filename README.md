@@ -1,13 +1,25 @@
-<h1 align="center">Hi, I'm Lina 👋😼🐈</h1>
+<h1 align="center">Hi, I'm Lina 👋🐈</h1>
 
 <p align="center">
   <b>ML Engineer · NLP & Geospatial ML · RAG Systems</b>
 </p>
 
 <p align="center">
-  20 y/o ML engineer from Russia, combining university studies with real-world ML projects:
-  from retrieval-augmented generation and user behavior modeling to geospatial analytics for agriculture.
+  I build ML systems that are meant to work outside notebooks too:
+  from retrieval-augmented generation and compact Transformer experiments
+  to geospatial analytics and domain-focused computer vision.
 </p>
+
+## About me
+
+I like ML projects that are both practical and measurable:
+clear pipelines, useful outputs, controlled experiments, and systems that do not fall apart the moment real data shows up.
+
+My main areas are:
+- NLP and LLM systems
+- compact Transformer models and evaluation
+- RAG pipelines and agent-style workflows
+- geospatial and agro ML
 
 ---
 
@@ -18,54 +30,48 @@
 
 ---
 
-### 🚀 What I do
-
-- Build **end-to-end ML services**: data preprocessing → modeling → API → deployment.
-- Work with **text & NLP**: address extraction, RAG pipelines, multilingual question answering.
-- Explore **geospatial & agro data**: fields, fertilization maps, spatial joins and feature engineering.
-- Participate in **hackathons & competitions**, where deadlines are short and models must actually work.
-
----
-
 ### ⭐ Highlighted projects
 
+#### 🧠 Compact Transformer Encoder for Natural Language Inference  
+> `PyTorch · Transformers · Deep Learning · Calibration · Evaluation`  
+Repo: [eeml-nli-compact-vs-bert](https://github.com/Lin-Lini/eeml-nli-compact-vs-bert)
+
+Research-oriented project on compact encoder-only Transformer models for Natural Language Inference:
+- implemented a Transformer encoder from scratch and compared it with fine-tuned BERT on SNLI;
+- studied efficiency vs quality trade-offs under a controlled evaluation setup;
+- analyzed calibration, diagnostic slices, and failure modes;
+- explored architectural ablations over pooling, positional encoding, and model depth.
+
+This is my current main research-focused project in efficient NLP.
+
+---
+
+#### 🏦 LLM Copilot for Banking Support  
+> `FastAPI · PostgreSQL · RAG · Audit Logging · LLM Systems`  
+Repo: [llm-copilot-bank-mvp](https://github.com/Lin-Lini/llm-copilot-bank-mvp)
+
+Backend MVP of a human-in-the-loop copilot for bank operators handling card dispute workflows:
+- retrieval over internal regulations and operational scripts;
+- structured LLM outputs with schema validation;
+- controlled tool execution with audit logging and trust-boundary design;
+- PII masking and guardrails for high-stakes support scenarios.
+
+Built as a practical backend system where compliance and control matter as much as model quality.
+
+---
+
 #### 🧾 ReviewOps MCP – Review Intelligence Platform for LLM Agents  
-> `NLP · MCP · FastAPI · PostgreSQL · Full-Text Search · LLM (llama.cpp) · Docker`  
+> `NLP · MCP · FastAPI · PostgreSQL · Full-Text Search · Docker`  
 Repo: [reviewops-mcp](https://github.com/Lin-Lini/reviewops-mcp)
 
-Self-hosted microservice platform for analyzing text reviews about organizations:
-- full-text search over reviews (Russian `tsvector`) + relevant snippets;
-- negative insights by rubric/region with evidence (quotes) and improvement suggestions;
-- leaders/anti-leaders ranking by rubric with minimum review thresholds;
-- MCP tools layer for LLM agents (MCP-first) with orchestrator routing and REST fallback;
-- pluggable LLM backend: local GGUF via `llama.cpp` or external OpenAI-compatible endpoint.
+Self-hosted review intelligence platform for analyzing user feedback about organizations:
+- full-text search over Russian reviews with relevant snippets;
+- evidence-based negative insights by rubric and region;
+- ranking of leaders and anti-leaders under configurable thresholds;
+- MCP-first tools layer for LLM agents with REST fallback;
+- pluggable LLM backend via local `llama.cpp` or external OpenAI-compatible endpoints.
 
----
-
-#### 🔎 RAGFlow – Retrieval-Augmented QA Service  
-> `NLP · RAG · Elasticsearch · Transformers · FastAPI`  
-Repo: [RAGFlow](https://github.com/Lin-Lini/RAGFlow)
-
-A modular RAG pipeline that:
-- ingests PDFs/DOCs/PPTX files and splits them into semantic chunks;
-- indexes content with **SBERT embeddings** in **Elasticsearch**;
-- answers user questions using **Vicuna / FLAN-T5** with source highlighting;
-- supports multilingual flows via **MarianMT** (ru ↔ en).
-
-This is my base platform for experimenting with LLM-based information retrieval.
-
----
-
-#### 🌿 plant-health – Tree & Plant Health Analysis  
-> `Computer Vision · Segmentation · Classification · Geo/Agro domain`  
-Repo: [plant-health](https://github.com/Lin-Lini/plant-health)
-
-End-to-end pipeline for plant/tree health monitoring:
-- segmentation of plants and defects on images;
-- health/condition classification and basic analytics;
-- integration with geospatial context for agronomic scenarios.
-
-This project reflects my interest in combining **CV + agriculture + geodata** into something practically useful.
+A project focused on turning messy review text into structured signals and usable tools.
 
 ---
 
@@ -73,33 +79,34 @@ This project reflects my interest in combining **CV + agriculture + geodata** in
 > `LLM Agents · RAG · Kafka · MinIO · Elasticsearch · FastAPI`  
 Repo: [assistant-teacher](https://github.com/Lin-Lini/assistant-teacher)
 
-Backend of an **agent-style assistant for teachers and students**:
-- parses and indexes course PDFs into Elasticsearch using a vectorizer service;
-- answers questions with RAG over course materials;
-- generates quizzes asynchronously via Kafka + LLM and stores them in MinIO;
-- automatically grades quiz answers and returns detailed feedback.
+Backend of an agent-style assistant for teachers and students:
+- parses and indexes course materials into Elasticsearch;
+- answers questions with retrieval-augmented generation;
+- generates quizzes asynchronously via Kafka + LLM;
+- stores artifacts in MinIO and supports automated grading workflows.
 
-Designed as a multi-service system with specialized workers (parser, generator, grader) coordinated by an LLM “router”.
+Designed as a multi-service system with specialized workers coordinated by an LLM router.
 
 ---
 
-#### 👥 All-Russian-hackathon – User Demographics Prediction  
-> `Tabular ML · Behavioral Data · Competition`  
-Repo: [All-Russian-hackathon](https://github.com/Lin-Lini/All-Russian-hackathon)
+#### 🌿 plant-health – Tree & Plant Health Analysis  
+> `Computer Vision · Segmentation · Classification · GIS / Agro ML`  
+Repo: [plant-health](https://github.com/Lin-Lini/plant-health)
 
-Competition project focused on:
-- predicting socio-demographic attributes of users from behavioral/interaction logs;
-- feature engineering from noisy event data;
-- model comparison (classic ML methods, regularization, ensembles).
+End-to-end pipeline for plant and tree health monitoring:
+- segmentation of plants and visual defects;
+- condition/species classification and basic analytics;
+- integration with geospatial context for agronomic scenarios.
 
-Shows my experience with **realistic, messy data** under hard competition constraints.
+This project reflects my interest in combining computer vision, agriculture, and geospatial data into something practically useful.
 
 ---
 
 ### 🧩 Other repositories (selection)
 
-- 🏙 `floor-population-models` – models to predict the number of residents in apartments (CatBoost, RF, Optuna).  
-- 📍 `address-extraction-ru` – Russian address extraction & normalization from raw text.  
+- 🔎 [RAGFlow](https://github.com/Lin-Lini/RAGFlow) – modular retrieval-augmented QA service with semantic chunking and source-grounded answers.  
+- 🏙 `floor-population-models` – models to predict the number of residents in apartments.  
+- 📍 `address-extraction-ru` – Russian address extraction and normalization from raw text.  
 - 🌾 `field-fertillized-map` – geospatial analysis of fields and fertilization maps.  
 - 🏨 `cancellation-of-reservation` – predicting hotel reservation cancellations.
 
