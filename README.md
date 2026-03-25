@@ -36,8 +36,7 @@ Controlled empirical study of a compact encoder-only Transformer versus BERT for
 - evaluates in-domain performance on SNLI and robustness under distribution shift on MNLI and HANS;
 - studies when a compact model remains useful in practice and when it should defer to a stronger system or a human.
 
-This is my main research-focused project in efficient NLP and reliable ML.
-
+This project reflects my current research focus in efficient NLP and reliable ML.
 ---
 
 #### 🏦 [LLM Copilot for Banking Support](https://github.com/Lin-Lini/llm-copilot-bank-mvp)
