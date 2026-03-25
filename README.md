@@ -1,21 +1,21 @@
 <h1 align="center">Hi, I'm Lina 👋🐈</h1>
 
 <p align="center">
-  <b>ML Engineer · NLP & Geospatial ML · RAG Systems</b>
+  <b>ML Engineer · Efficient NLP · Reliable ML · RAG Systems</b>
 </p>
 
 ## About me
 
-I like ML projects that are both practical and measurable:
-clear pipelines, useful outputs, controlled experiments, and systems that do not fall apart the moment real data shows up.
+I work on ML systems that are both practical and measurable:
+clear pipelines, controlled experiments, and models whose behavior can still be trusted when conditions become less convenient.
 
 My main areas are:
-- NLP and LLM systems
-- compact Transformer models and evaluation
-- RAG pipelines and agent-style workflows
+- efficient NLP and compact Transformer models
+- model evaluation, calibration, and selective prediction
+- RAG pipelines and LLM-based systems
 - geospatial and agro ML
 
-My current focus is efficient NLP: compact Transformer models, evaluation, calibration, and retrieval-grounded LLM systems.
+My current focus is reliable and efficient NLP: compact encoder models, uncertainty-aware evaluation, and retrieval-grounded language systems.
 
 ---
 
@@ -28,15 +28,15 @@ My current focus is efficient NLP: compact Transformer models, evaluation, calib
 
 ### ⭐ Highlighted projects
 
-#### 🧠 [Compact Transformer Encoder for Natural Language Inference](https://github.com/Lin-Lini/eeml-nli-compact-vs-bert)
-> `PyTorch · Transformers · Deep Learning · Calibration · Evaluation`
+#### 🧠 [When Compact Encoders Should Abstain](https://github.com/Lin-Lini/when-compact-encoders-should-abstain)
+> `PyTorch · Transformers · Calibration · Selective Prediction · NLI`
 
-Research-oriented project on compact encoder-only Transformer models for Natural Language Inference:
-- implemented a Transformer encoder from scratch and compared it with fine-tuned BERT on SNLI;
-- studied efficiency vs quality trade-offs under a controlled evaluation setup;
-- analyzed calibration, diagnostic slices, failure modes, and exploratory architectural ablations.
+Controlled empirical study of a compact encoder-only Transformer versus BERT for natural language inference:
+- compares predictive quality, efficiency, calibration, and abstention behavior under a shared evaluation setup;
+- evaluates in-domain performance on SNLI and robustness under distribution shift on MNLI and HANS;
+- studies when a compact model remains useful in practice and when it should defer to a stronger system or a human.
 
-This is my current main research-focused project in efficient NLP.
+This is my main research-focused project in efficient NLP and reliable ML.
 
 ---
 
@@ -52,19 +52,19 @@ Built as a practical backend system where compliance and control matter as much 
 
 ---
 
-#### 🧾 [ReviewOps MCP – Review Intelligence Platform for LLM Agents](https://github.com/Lin-Lini/reviewops-mcp)
-> `NLP · MCP · FastAPI · PostgreSQL · Full-Text Search · Docker`
+#### 🧾 [ReviewOps MCP](https://github.com/Lin-Lini/reviewops-mcp)
+> `NLP · MCP · FastAPI · PostgreSQL · Search · Docker`
 
 Self-hosted review intelligence platform for analyzing user feedback about organizations:
-- full-text search over Russian reviews with relevant snippets;
-- evidence-based negative insights and ranking by rubric and region;
-- MCP-first tools layer for LLM agents with local `llama.cpp` or external OpenAI-compatible backends.
+- full-text search over Russian reviews with evidence-bearing snippets;
+- structured negative insights and ranking by rubric and region;
+- MCP-first tools for LLM agents with local or OpenAI-compatible backends.
 
-A project focused on turning messy review text into structured signals and usable tools.
+A project focused on turning messy review text into usable signals and tools.
 
 ---
 
-#### 🧑‍🏫 [assistant-teacher – Agent System for Educators](https://github.com/Lin-Lini/assistant-teacher)
+#### 🧑‍🏫 [assistant-teacher](https://github.com/Lin-Lini/assistant-teacher)
 > `LLM Agents · RAG · Kafka · MinIO · Elasticsearch · FastAPI`
 
 Backend of an agent-style assistant for teachers and students:
@@ -76,7 +76,7 @@ Designed as a system with specialized workers coordinated by an LLM router.
 
 ---
 
-#### 🌿 [plant-health – Tree & Plant Health Analysis](https://github.com/Lin-Lini/plant-health)
+#### 🌿 [plant-health](https://github.com/Lin-Lini/plant-health)
 > `Computer Vision · Segmentation · Classification · GIS / Agro ML`
 
 End-to-end pipeline for plant and tree health monitoring:
@@ -88,13 +88,13 @@ This project reflects my interest in combining computer vision, agriculture, and
 
 ---
 
-### 🧩 Other repositories (selection)
+### 🧩 Other repositories
 
-- 🔎 [RAGFlow](https://github.com/Lin-Lini/RAGFlow) – modular retrieval-augmented QA service with semantic chunking and source-grounded answers.  
-- 🏙 `floor-population-models` – models to predict the number of residents in apartments.  
-- 📍 `address-extraction-ru` – Russian address extraction and normalization from raw text.  
-- 🌾 `field-fertillized-map` – geospatial analysis of fields and fertilization maps.  
-- 🏨 `cancellation-of-reservation` – predicting hotel reservation cancellations.
+- 🔎 [RAGFlow](https://github.com/Lin-Lini/RAGFlow) – modular retrieval-augmented QA service with semantic chunking and source-grounded answers  
+- 📍 `address-extraction-ru` – Russian address extraction and normalization from raw text  
+- 🏙 `floor-population-models` – models for apartment population estimation  
+- 🌾 `field-fertillized-map` – geospatial analysis of fields and fertilization maps  
+- 🏨 `cancellation-of-reservation` – predicting hotel reservation cancellations
 
 More projects are available in the [Repositories](https://github.com/Lin-Lini?tab=repositories) section.
 
